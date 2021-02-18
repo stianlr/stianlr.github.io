@@ -1,0 +1,92 @@
+body {
+    background-color: darkgrey;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Ikon/aalesund.jpg");
+}
+
+.navigation-bar {
+    overflow: hidden;
+    background-color: green;
+    border-bottom: 3px solid white;
+}
+
+.navigation-bar a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 36px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#leftfoodmenu {
+    float: right;
+}
+
+.navigation-bar a:hover {
+    background-color: #3fdb2e;
+    text-shadow: 2px 2px black;
+    transition: 0.25s;
+}
+#logo {
+    float: left;
+    color: white;
+    padding: 20px 50px;
+}
+
+.maincontent{
+    background-color: darkgrey;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    margin-top: -1px;
+    text-shadow: 4px 4px black;
+}
+
+.largePictureDisplay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+    margin-top: -25px;
+}
+
+.maininfo {
+    margin-left: 18%;
+    margin-right: 18%;
+    color: white;
+    font-size: 23px;
+    text-shadow: 2px 2px black;
+}
+
+#cafe-area {
+    float: right;
+    margin: 13px;
+    border: 3px solid white;
+}
+
+.cafe-dishes {
+    float: right;
+    margin: 13px;
+    border: 3px solid white;
+}
+
+.footer {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-top: 3px solid white;
+    margin-top: -20px;
+}
